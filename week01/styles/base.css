@@ -1,0 +1,65 @@
+header {
+	background-color: rgb(6, 79, 138);
+	text-align: center;
+	padding: 20px;
+	
+  }
+  header img {
+	width: 150px; 
+	box-shadow: 0 0 10px brown;
+  }
+  nav{
+	background-color: rgb(98, 4, 4);
+	padding: 20px;
+
+	
+  }
+  nav ul {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	
+  }
+  nav li {
+	
+	display: inline-block;
+	margin-right: 20px;
+	
+  }
+  nav a {
+	text-decoration: none;
+	color: whitesmoke;
+	font-weight: bold;
+	margin: 100px;
+	
+  }
+  nav a:hover{
+	padding: 35px;
+	background-color: aqua;
+  }
+  #main-content {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+  }
+  .left-column, .right-column {
+	width: 45%;
+	padding: 15px;
+	background-color: #f0f0f0;
+	box-shadow: 0 0 15px #290505;
+  }
+  footer {
+	background-color:  rgb(6, 79, 138);
+	text-align: center;
+	padding: 10px;
+	color: #f0f0f0;
+	font-size: 1.5em;
+  }
+  .learning-activity{
+	background-color:  rgb(6, 79, 138);
+	padding: 8px;
+  }
+  .information{
+	background-color:  rgb(6, 79, 138);
+	padding: 8px;
+  }
