@@ -1,5 +1,5 @@
 header {
-	background-color: rgb(6, 79, 138);
+	background-color:#114B56;
 	text-align: center;
 	padding: 20px;
 	
@@ -9,7 +9,7 @@ header {
 	box-shadow: 0 0 10px brown;
   }
   nav{
-	background-color: rgb(98, 4, 4);
+	background-color: #489FB5;
 	padding: 20px;
 
 	
@@ -33,9 +33,12 @@ header {
 	margin: 100px;
 	
   }
+ header h1{
+	color: whitesmoke;
+  }
   nav a:hover{
 	padding: 35px;
-	background-color: aqua;
+	background-color:#114B56;
   }
   #main-content {
 	display: flex;
@@ -49,17 +52,20 @@ header {
 	box-shadow: 0 0 15px #290505;
   }
   footer {
-	background-color:  rgb(6, 79, 138);
+	background-color:  #114B56;
 	text-align: center;
 	padding: 10px;
 	color: #f0f0f0;
 	font-size: 1.5em;
   }
   .learning-activity{
-	background-color:  rgb(6, 79, 138);
+	background-color:  #489FB5;
 	padding: 8px;
   }
   .information{
-	background-color:  rgb(6, 79, 138);
+	background-color: #489FB5;
 	padding: 8px;
+  }
+  .flag{
+	width: 50px;
   }
