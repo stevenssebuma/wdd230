@@ -86,7 +86,3 @@ p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
 }
-ul{
-  color: var(--secondary-color);
-  font-size: 1.5rem;
-}
