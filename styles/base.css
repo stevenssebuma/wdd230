@@ -1,3 +1,7 @@
+body{
+	font-family: Lato;
+}
+
 header {
 	background-color:#114B56;
 	text-align: center;
@@ -34,6 +38,7 @@ header {
 	
   }
  header h1{
+	font-family: Gideon Roman;
 	color: whitesmoke;
   }
   nav a:hover{
