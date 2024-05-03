@@ -1,7 +1,29 @@
-@media (max-width: 400px) {
-    header, nav, section, footer {
-        padding: 20px;
-        display: block;
+
+@media screen and (max-width: 500px) {
+    header {
+    
+        text-align: center;
     }
-   
+
+    nav ul {
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    nav li {
+        display: block;
+        margin: 5px 0;
+    }
+    #main-content {
+        display: block;
+        justify-content: space-around;
+        width: fit-content;
+
+      }
+      .left-column, .right-column {
+        width: fit-content;
+        margin: 30px;
+        width: 100%;
+    
+      }    
 }

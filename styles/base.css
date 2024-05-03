@@ -69,3 +69,6 @@ header {
   .flag{
 	width: 50px;
   }
+  .last-modified{
+	color: orange;
+  }
