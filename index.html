@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Web Frontend Development">
-    <meta property="og:description" content="Explore the latest projects and updates on web development from Steven Ssebuma's GitHub Pages. Discover tutorials, tips, and resources to enhance your skills in HTML, CSS, and JavaScript. Stay connected with the web development community and level up your coding game!">
+    <meta property="og:description" content="">
     <meta property="og:image" content="">
     <meta property="og:url" content="https://stevenssebuma.github.io/wdd230/">
     <title>Steven Ssebuma - WDD 230 - Web Frontend Development</title>
@@ -13,19 +13,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display&display=swap'" rel="stylesheet">
-    <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
 </head>
 <body>
+  <div id="nav-header">
+    <button id="hamburger" title="menu button"></button>
+  </div>
     <header>
         <img src="images/Steven-Sebuma-Portrait.jpg" alt="Portrait of Steven Ssebuma">
         <p>Steven Ssebuma</p>
-        <nav>
+        <nav>          
             <ul>
-              <li><a href="#home">Home</a></li>
-              <li><a href="#chamber">Chamber</a></li>
-              <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
-              <li><a href="#form">Form</a></li>
+              <a href="#home" onclick="changeMenu('Home')">Home</a>
+              <a href="#chamber" onclick="changeMenu('Chamber')">Chamber</a>
+              <a href="week01/chamber-site-plan.html" onclick="changeMenu('Site-plan')">Site Plan</a>
+              <a href="#form" onclick="changeMenu('form')">Form</a>
             </ul>
           </nav>
     </header>
@@ -44,13 +47,12 @@
             <li>Week 06:</li>
           </ul>
         </div>
-      </section>
-        <section class="main-content1">
+      
         <div class="right-column">
-          <div class="information"><h2>Information</h2></div>
-          <p>Kampala, Uganda</p>
-          <p>Weather: 76°F, Sunshine</p>
-          <p>Page Visits: 15</p>
+            <div class="information"><h2>Information</h2></div>
+            <p>Kampala, Uganda</p>
+            <p>Weather: 76°F, Sunshine</p>
+            <p>Page Visits: 15</p>
         </div>
       </section>
     </main>

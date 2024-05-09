@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display&display=swap');
+:root {
+    --primary-color: #114B56;
+    --secondary-color: #489FB5;
+    --accent1-color: #82C0CC;
+    --accent2-color: #EDE7E3;
+  
+    --heading-font: Gideon Roman;
+    --paragraph-font: Lato;
+  
+    --headline-color-on-white: #114B56;  /* headlines on a white background */ 
+    --headline-color-on-color: #EDE7E3; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #489FB5; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #EDE7E3; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #114B56  ;
+    --nav-link-color: #EDE7E3;
+    --nav-background-color: #489FB5;
+    --nav-hover-link-color: #EDE7E3;
+    --nav-hover-background-color: #114B56;
+  }
+
+
+
+#hamburger {
+    border: none;
+    background: none;
+    font-size: larger;
+    color: var(--accent2-color);
+}
+.open-ul{
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    padding: 0;
+}
+#hamburger::before {
+    content: "☰";
+}
+
+#hamburger.open::before {
+    content: "X";
+}
+
+#nav {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--headline-color-on-white);
+    width: 100%;
+    justify-content: center;
+    color: var(--headline-color-on-color);
+}
+.logo{
+    width: 150px;
+}
+
+nav a:hover {
+    text-decoration: none;
+    background-color: var(--accent1-color);
+    color: var(--headline-color-on-white);
+    cursor: pointer;
+    border-radius: 50px;
+
+}
+
+#nav-header {
+    color: var(--accent2-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.header-text{
+    position: relative;
+    grid-column: 1/4;
+    grid-row: 1/3;
+    text-align: center;
+    font-size: 1rem;
+    text-shadow: 3px 0.5px 0px black;
+    
+}
+.hero-image{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.hero{
+    grid-column: 1/4;
+    grid-row: 1/4;
+    
+}
+
+a {
+    color: var(--accent2-color);
+    text-decoration: none;
+    padding: 5px;
+    margin: 50px;
+    font-size: 1.5rem;
+}
+
+ul {
+    display: none;
+    margin: 5px;
+    padding-top: 10px;
+    padding: 5px;
+}
+
+
+li {
+    list-style: none;
+    padding: 5px;
+}
+
+li:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h2 {
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--paragraph-background-color);
+    color: var(--accent2-color);
+    font-family: Lato;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.web-text{
+    font-size: 1.5rem;
+    margin: 50px;
+    
+}
+.hero{
+  width: 100%;
+  min-width: 10px;
+}
+
+.card-img {
+    width: 100%;
+    min-width: 10px;
+    border: solid #114B56;
+    box-shadow: 15px 15px 10px;
+    
+}
+
+.images-caption {
+   display: block;
+   width: 100%;
+    align-content: center;
+    justify-content: space-evenly;
+    
+}
+.logo2{
+    float: left;
+    width: 20px;
+}
+   
+.icon2{
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+  
+  /* The popup chat - hidden by default */
+.chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width textarea */
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  /* When the textarea gets focus, do something */
+  .form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/send button */
+  .form-container .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  } 
+  p{
+    font-family: Lato, sans-serif;
+    color: var(--headline-color-on-white);
+   
+  }
+  footer p{
+    color: var(--headline-color-on-color);
+
+  }
+  .card-image{
+    width: 100%;
+    min-width: 10px;
+    border: solid #114B56;
+    box-shadow: 15px 15px 10px;
+    margin-bottom: 50px;
+
+  }
+  figcaption{
+    font-size: 25px;
+    font-family: Lato;
+    margin: 15px;
+    color: var(--headline-color-on-white);
+  }
+  
+  .linkedin{
+    width: 70px;
+    height: 70px;
+  }
+  .social{
+    justify-content: space-evenly;
+  }
+  
