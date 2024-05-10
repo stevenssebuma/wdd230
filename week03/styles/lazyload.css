@@ -1,0 +1,22 @@
+main img{
+    display: block;
+    margin: 50px;
+}
+
+  
+  main img {
+    width: 400px;
+    height: 600px;
+    margin: 10px;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Lazy Load</h1>
+
+    </header>
+    <main>     
+        <img src="images/pexels-pixabay-2061.jpg" alt="" loading="lazy">
+        <img src="images/pexels-pixabay-2156.jpg" alt="" loading="lazy" >
+        <img src="images/pexels-pixabay-2209.jpg" alt=""  loading="lazy" >
+        <img src="images/pexels-pixabay-2440.jpg" alt="" loading="lazy" >
+        <img src="images/pexels-pixabay-5145.jpg" alt="" loading="lazy" >
+        <img src="images/pexels-pixabay-15239.jpg" alt="" loading="lazy" >
+    </main>
+    <picture>
+        <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+        <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+        <img srcset="images/hero-large.webp" alt="Hero Photo" width="500" height="250">
+      </picture>
+    <footer>
+
+    </footer>
+</body>
+</html>
