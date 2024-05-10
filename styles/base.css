@@ -16,7 +16,7 @@
         margin: 5px 0;
     }
     
-    main{
+    .main{
         display: block;
         width: fit-content;
     }
@@ -24,5 +24,26 @@
         width: fit-content;
         margin: 30px;
     
-      }    
+      } 
+      #hamburger {
+        border: none;
+        background: none;
+        font-size: larger;
+        color: var(--accent2-color);
+      }
+      
+      .open-ul {
+        display: none;
+        margin: auto;
+        padding-top: 10px;
+        padding: 0;
+      }
+      
+      #hamburger::before {
+        content: "☰";
+      }
+      
+      #hamburger.open::before {
+        content: "X";
+      }
 }
