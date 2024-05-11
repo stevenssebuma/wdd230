@@ -146,7 +146,10 @@
     animation: textclip 5s linear infinite;
     display: inline-block;
     font-size: 30px;
+    height: 200px;
+    box-shadow: 0.001px 100px 100px 1px rgb(250, 246, 175) inset;
     text-shadow: 3px 0.5px 1px black;
+    
     
   }
   figcaption{
@@ -161,7 +164,6 @@
     justify-content: space-evenly;
   }
   .hero-image {
-    
     opacity: 0;
     animation: fadeIn 2s ease-in-out forwards;
   }
