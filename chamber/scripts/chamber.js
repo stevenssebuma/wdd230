@@ -60,3 +60,22 @@ window.addEventListener('resize', checkScroll);
 
 // Initial check when page loads
 checkScroll();
+
+ // Fetch event data from an API
+ const eventData = {
+  title: 'BUSINESS FORUM',
+  date: 'May 15, 2024',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+  link: 'event-details.html'
+};
+
+// Update the current event section with the event data
+document.getElementById('event-title').textContent = eventData.title;
+document.getElementById('event-date').textContent = 'Date: ' + eventData.date;
+document.getElementById('event-description').textContent = 'Description: ' + eventData.description;
+document.getElementById('event-image').src = eventData.image;
+document.getElementById('learn-more').href = eventData.link;
+
+
+    
+

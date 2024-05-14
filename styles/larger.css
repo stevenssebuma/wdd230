@@ -19,6 +19,11 @@ body{
 	width: 100%;
 	margin-right: 50px;
 }
+.hero-image{
+	grid-column: 1/4;
+	width: 100%;
+	position: relative;	
+}
 header {
 	background-color:#114B56;
 	text-align: center;
@@ -107,4 +112,17 @@ header {
 	color: whitesmoke;
 	font-size: 40px;
   }
-  
+  .dark-mode {
+	background-color: hsl(0, 0%, 20%);
+	color: var(#114B56); 
+	h1{
+		color: #f0f0f0;
+	}
+}
+.toggle {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	background-color: #43a1b4;
+}
+

@@ -13,3 +13,8 @@ hamButton.addEventListener("click", () => {
 function changeMenu(menu) {
     document.getElementById('menuHeading').innerText = menu;
 }
+function toggleDarkMode() {
+
+    document.body.classList.toggle('dark-mode');
+
+}
