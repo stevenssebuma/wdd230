@@ -41,6 +41,7 @@
       
       #hamburger::before {
         content: "☰";
+      
       }
       
       #hamburger.open::before {
