@@ -244,12 +244,6 @@ footer {
     margin-bottom: 50px;
 
   }
-  figcaption{
-    font-size: 25px;
-    font-family: Lato;
-    margin: 15px;
-    color: var(--headline-color-on-white);
-  }
   
   .linkedin{
     width: 70px;
@@ -272,4 +266,30 @@ footer {
   .visible {
     opacity: 1;
   }
+  .parent {
+    margin: 1rem 2vw;
+  }
+  
+  .parent section {
+    border: 1px solid var(--headline-color-on-white);
+    background-color: var(--accent1-color);
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+    
+  }
+  
+  h2, .parent span {
+    background-color: var(--headline-color-on-white);
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: .75rem 0;
+    
+  }
+  
+  .parent p {
+    padding: 10px;
+  }
+  
  
