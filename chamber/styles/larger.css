@@ -291,5 +291,8 @@ footer {
   .parent p {
     padding: 10px;
   }
+  .video{
+    width: 100%;
+  }
   
  
