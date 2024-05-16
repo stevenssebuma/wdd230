@@ -126,3 +126,31 @@ header {
 	background-color: #43a1b4;
 }
 
+.heroIndy picture {
+    width: 100%;
+}
+.heroIndy img {
+    width: 100%;
+    height: auto;
+}
+.heroIndy {
+    position: relative;
+}
+.heroIndy span {
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    background-color: rgba(113, 179, 246, 0.3);
+    padding: .2rem;
+    text-align: center;
+    font-family: Gideon Roman;
+    font-size: medium;
+    background: radial-gradient(#fff, darkgray);
+	border: 1px solid rgba(0,0,0,.75);
+    box-shadow: 0 0 10rem #fff;
+	opacity: 0.75;
+}
+iframe{
+    width: 100%;
+    margin-bottom: 50px;
+  }

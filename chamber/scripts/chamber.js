@@ -40,26 +40,6 @@ function openForm() {
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
-const images = document.querySelectorAll('.card-img');
-
-function checkScroll() {
-  images.forEach(image => {
-    const imageTop = image.getBoundingClientRect().top;
-    const imageBottom = image.getBoundingClientRect().bottom;
-
-    if (imageTop < window.innerHeight && imageBottom >= 0) {
-      image.classList.add('visible');
-    } else {
-      image.classList.remove('visible');
-    }
-  });
-}
-
-window.addEventListener('scroll', checkScroll);
-window.addEventListener('resize', checkScroll);
-
-// Initial check when page loads
-checkScroll();
 
 
 // Update the current event section with the event data

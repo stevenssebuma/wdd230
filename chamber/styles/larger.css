@@ -294,5 +294,56 @@ footer {
   .video{
     width: 100%;
   }
+ 
+  .mainContent {
+    display:block;
+    justify-items: center;
+}
+  aside {
+    max-width: 500px;
+    padding-left: 1rem;
+  }
+  figcaption {
+    text-align: center;
+    border: 1px solid black;
+    max-width: 550px; 
+    align-items: center;
+    margin: 3rem;
+    font-size: large;
+    padding: 1rem;
+  
+  }
+  .gallery img {
+    width: 100%; 
+    height: auto;
+    transition: transform 0.3s ease, filter 0.3s ease; 
+  }
+  .sidebar {
+    background-color: #bbb;
+    
+    
+  }
+  .sidebar section {
+    
+    border: 1px solid black;
+    background-color: #b7d2e8;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: large;
+    text-align: center;
+    max-width: 450px;
+    
+  }
+  .right-half {
+    background-color:#c05a42;
+    
+  }
+  .gallery img:hover {
+    transform: scale(1.1); /* Enlarges the image */
+    filter: brightness(1.2); /* Increases the brightness */
+  }
+  
   
  

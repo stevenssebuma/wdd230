@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Kampala Chamber of Commerce">
     <meta property="og:description" content="Discover the latest trends and strategies in commerce and business on our website. Stay ahead of the competition with expert insights, industry news, and practical tips to help you succeed in the fast-paced world of commerce. Join our community of business professionals and entrepreneurs to network, learn, and grow your business. Let's elevate your commerce and business game together.">
-    <meta property="og:image" content="">
-    <meta property="og:url" content="https://stevenssebuma.github.io/wdd230/">
+    <meta property="og:image" content="https://picjj.com/images/2024/05/10/FUiwA.webp">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://stevenssebuma.github.io/wdd230/chamber/index.html">
     <title>Kampala Chamber of Commerce</title>
     <meta name="description" content="Kampala Chamber of Commerce">
     <meta name="author" content="Steven Ssebuma">
@@ -15,8 +16,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display&display=swap'" rel="stylesheet">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="icon" href="favicon.ico">
-    <script src="scripts/temples.js" defer></script>
+    <script src="scripts/chamber.js" defer></script>
 </head>
 <body>
     <header>
@@ -27,9 +29,10 @@
                 <button id="hamburger" title="menu button"></button>
             </div>
             <ul>
-                <li><a href="chamber/index.html" onclick="changeMenu ('Home')">Home</a></li>
-                <li><a href="old" onclick="changeMenu ('old')">About Us</a></li>
-                <li><a href="new" onclick="changeMenu ('New')">Contact Us</a></li>
+                <li><a href="index.html" onclick="changeMenu ('Home')">Home</a></li>
+                <li><a href="discover.html" onclick="changeMenu ('old')">Discover</a></li>
+                <li><a href="new" onclick="changeMenu ('New')">Directory</a></li>
+                <li><a href="new" onclick="changeMenu ('New')">Join</a></li>
 
             </ul>
         </nav>
@@ -48,17 +51,91 @@
                   </form>
                 </div>
         <div class="hero-image">
-            <img class="hero" src="images/business-man-standing-back-during-sunrise.jpg" alt="Businnes Man Standing back During Sunrise">
-            <div class="header-text"><h1>KAMPALA CHAMBER OF COMMERCE</h1></div>
+            <img class="hero" src="images/business-man-standing-back-during-sunrise.webp" alt="Businnes Man Standing back During Sunrise">
+            <div class="header-text"><h1>KAMPALA Chamber of Commerce</h1></div>
+            <div class="mainContent">
+                <div class="gallery">
+                   <div class="right-half">
+                       <figure>
+                           <img src="images/Kampala-City.webp" alt="Picture of Kampala downtown" loading="lazy" width="600" height="400">
+                           <figcaption>
+                                Kampala-City Downtown
+                           </figcaption>
+                       </figure>
+                       <figure>
+                           <img src="images/kingdom-mall.webp" alt="Picture of  Kingdom Mall" loading="lazy" width="600" height="400">
+                           <figcaption>
+                               Kingdom Mall Kampala
+                           </figcaption>
+                       </figure>
+                       <figure>
+                           <img src="images/kampala1.webp" alt="Picture of Business Hall" loading="lazy" width="600" height="400">
+                           <figcaption>
+                               Business Hall Kampala
+                           </figcaption>
+                       </figure>
+                       <figure>
+                           <img src="images/victoria.webp" alt="Picture of the Victoria resort" loading="lazy" width="600" height="400">
+                           <figcaption>
+                               Victoria Resort
+                           </figcaption>
+                       </figure>
+                       <figure>
+                           <img src="images/Entebbe.webp" alt="Picture of the Entebbe Airport" loading="lazy" width="600" height="400">
+                           <figcaption>
+                               Airport Entebbe
+                           </figcaption>
+                       </figure>
+                       <figure>
+                           <img src="images/kampala1.webp" alt="Picture of Kangaroos at the Indianapolis Zoo" loading="lazy" width="600" height="400">
+                           <figcaption>
+                               
+                           </figcaption>
+                       </figure>
+                    </div>
+                </div>
+                <aside class="sidebar">
+                    <section class="card">
+                        <h2>Demographics</h2>
+                        <p>Population: 4 Million</p>
+                        <p>Time Zone: EAT</p>
+                        <p>Country: Uganda</p>
+                        <p>City: Kampala</p>
+                        <p>Division: Central</p>
+                        <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+                    </section>
+                    <section class="card">
+                        <h2>Events</h2>
+                        <p>Kampala Festival</p>
+                        <p>Nyege Nyege Festival</p>
+                        <p>Enkuka Yomwaka</p>
+                    </section>
+                    <section class="card">
+                        <h2>Attractions</h2>
+                        <p>Come see the Amazing Evergreen city</p>
+                        <p>You can cool the hot sunny day at the beach in Entebbe</p>
+                        <p>Discover the blissful Outdoor in the equatorial mountains</p>
+                        <p></p>
+                    </section>
+                    <section class="card">
+                        <h2>Days Between Visits</h2>
+                        <hr>
+                            <div id="visitMessage"></div>
+                        <hr>
+                    </section>
+                    <section class="card">
+                        <h2>Calendar</h2>
+                        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FIndiana%2FIndianapolis&bgcolor=%23ffffff&src=NmI0Y2NiNTgwNGQwNTg1MWFiZjEwNGFmYWE5YjkwOTE0MzRmYzdkODMxYTdhOWZlZmJhMGJjNGM1YjA2MGUwNkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%239E69AF&color=%230B8043" style="border:solid 1px #777" width="400" height="400"></iframe>
+                    </section>
+                </aside>
+            
 
-        </div>
-        
-        
-        
-    </main>
+ 
+            </main>
     <footer>
-        <p>&copy;<span id="currentyear"></span> ✈ Steven Ssebuma ✈ Uganda</p>
-        <p>Last Modified: <span id="lastModified"></span></p>
+        <script src="scripts/visits.js" defer></script>
+        <p>&copy;<span id="currentyear"></span> ✈ Steven Ssebuma ✈ WDD 230</p>
+        <p>Last Modified:<span id="lastModified"></span></p>
         <div class="social">
             <a href="https://www.linkedin.com/in/steven-ssebuma-b58471268/" target="_blank">
                 <img class="linkedin" src="images/LI-In-Bug.png" alt="linkedin icon">
