@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/form.css">
     <link rel="icon" href="favicon.ico">
 </head>
 <body>
@@ -33,52 +34,50 @@
               <li><a href="#home">Home</a></li>
               <li><a href="chamber/index.html">Chamber</a></li>
               <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
-              <li><a href="form.html">Form</a></li>
+              <li><a href="#form">Form</a></li>
             </ul>
           </nav>
     </header>
-    <div class="hero">
-      <picture>
-        <source media="(min-width: 500px)" srcset="images/hero-small.webp">
-        <source media="(min-width: 1000px)" srcset="images/hero-medium.webp">
-        <img src="" alt="">
-      </picture>
-      <span>Johannesburg South Africa Temple</span>
-    </div>
     
     <main class="main">
-     <h1>WDD 230: Web Frontend Development</h1> 
-      <section class="main-content">
-      
-        <div class="left-column">
-          <div class="learning-activity"><h2>Learning Activities</h2></div>
-          <ul>
-            <li>Week 01: <a href="week01/media-query.html">Media Query</a></li>
-            <li>Week 02:</li>
-            <li>Week 03: <a href="week03/landscape.webp">WebP</a></li>
-            <li>Week 04:</li>
-            <li>Week 05:</li>
-            <li>Week 06:</li>
-          </ul>
-        </div>
-      </section>
-        <section class="main-content1">
-        <div class="right-column">
-          <div class="information"><h2>Information</h2></div>
-          <p>Kampala, Uganda</p>
-          <p>Weather: 76°F, Sunshine</p>
-          <p>Page Visits: </span><span class="visits"></span></p>
-        </div>
-      </section>
-      <div class="iframe">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255344.5532744533!2d32.43465215962409!3d0.31337142272243607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbc0f9d74b39b%3A0x4538903dd96b6fec!2sKampala!5e0!3m2!1sen!2sug!4v1715330599887!5m2!1sen!2sug" width="600" height="450" style="border: 2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
+        <div><h1>Contact Us</h1>
+        <form method="get" action="record.html" class="wf1">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label>Username*<input type="text" id="username" name="username" required></label>
+                <label for="email">Email*<input type="email" name="email" id="email"
+                    pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address from byui.edu" required></label>
+                <label>Password*<input type="password" id="password" name="password" pattern="[A-Za-z0-9]{8,}" placeholder="8 characters - Letters and Numbers" required></label>
+                <label>Password Confirmation*<input type="password" id="confirm" name="confirm" pattern="[A-Za-z0-9]{8,}" placeholder="8 characters - Letters and Numbers" required></label>
+                
+                <label for="r">Page Rating</label>
+                <div id="rangevalue">0</div>
+                <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+	                <option value="1">1</option>
+	                <option value="2">2</option>
+	                <option value="3">3</option>
+	                <option value="4">4</option>
+	                <option value="5">5</option>
+                    <option value="6">6</option>
+	                <option value="7">7</option>
+	                <option value="8">8</option>
+	                <option value="9">9</option>
+	                <option value="10">10</option>
+	            </datalist>
+                <input type="submit" value="Contact Us Today!">
+            </fieldset>
+             
+        </form>
+        
+        <div id="feedback"></div>
+    </div> 
     </main>
     <footer>
         <p>&copy;2024 Steven Ssebuma ✈️ Uganda <img class="flag" src="images/ug-flag.png" alt="Uganda Flag"></p>
             <p class="last-modified">Last Modified: <span id="current-date"></span></p>
     </footer>
     <script src="scripts/getDates.js"></script>
-    <script src="scripts/localStorage.js"></script>
 </body>
 </html>

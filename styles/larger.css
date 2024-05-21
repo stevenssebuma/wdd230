@@ -126,17 +126,17 @@ header {
 	background-color: #43a1b4;
 }
 
-.heroIndy picture {
+.hero picture {
     width: 100%;
 }
-.heroIndy img {
+.hero img {
     width: 100%;
     height: auto;
 }
-.heroIndy {
+.hero {
     position: relative;
 }
-.heroIndy span {
+.hero span {
     position: absolute;
     top: 10%;
     left: 2%;
