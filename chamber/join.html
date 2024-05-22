@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Kampala Chamber of Commerce">
+    <meta property="og:description" content="Discover the latest trends and strategies in commerce and business on our website. Stay ahead of the competition with expert insights, industry news, and practical tips to help you succeed in the fast-paced world of commerce. Join our community of business professionals and entrepreneurs to network, learn, and grow your business. Let's elevate your commerce and business game together.">
+    <meta property="og:image" content="https://picjj.com/images/2024/05/10/FUiwA.webp">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://stevenssebuma.github.io/wdd230/chamber/index.html">
+    <title>Kampala Chamber of Commerce</title>
+    <meta name="description" content="Kampala Chamber of Commerce">
+    <meta name="author" content="Steven Ssebuma">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display&display=swap'" rel="stylesheet">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="scripts/chamber.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <div id="nav-header">
+                <img class="logo" src="images/logo.png" alt="Kampala Chamber of Commerece logo">
+               
+                <button id="hamburger" title="menu button"></button>
+            </div>
+            <ul>
+                <li><a href="index.html" onclick="changeMenu ('Home')">Home</a></li>
+                <li><a href="discover.html" onclick="changeMenu ('old')">Discover</a></li>
+                <li><a href="new" onclick="changeMenu ('New')">Directory</a></li>
+                <li><a href="new" onclick="changeMenu ('New')">Join</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Member Information</h1>
+        <div class="join-main">
+        <div class="form-container">
+        
+        <form method="get" action="thankyou.html" class="join">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <fieldset>
+                    
+                    <label>First Name* <input type="text" name="fname" id="fname" required></label>
+                    <label>Last Name* <input type="text" name="lname" id="lname" required></label>
+                    <label>Title or Position<input type="text" name="title" id="title" pattern="[a-zA-Z\- ]{7,}"></label>
+                    <label>Email <input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
+
+                    <label>Phone <input type="tel" name="phone" id="phone" placeholder="1235551234" required></label>
+                    <label>Business/Organization's Name <input type="text" name="business" id="business" required></label>
+
+                </fieldset>
+                <fieldset>
+                    
+                    <label>
+                        Membership Level:
+                        <select name="membershipLevel" id="membershipLevel">
+                                <option value="">Please Select &#9662;</option>
+                            <option value="np">NP Membership - No Fee</option>
+                            <option value="bronze">Bronze Membership</option>
+                            <option value="silver">Silver Membership</option>
+                            <option value="gold">Gold Membership</option>
+                        </select>
+                    </label>
+                    <label>Business Description<textarea name="description" id="description"></textarea></label>
+                    
+                </fieldset>
+                <fieldset>
+                    <input type="hidden" name="timestamp" id="timestamp">
+                    <input type="submit" value="Sign Me Up">
+                </fieldset>
+             
+        </form>
+        
+        </div>
+        <div class="benefits-container">
+            <h2>Membership Benefits</h2>
+                <section class="benefit">            
+                    <p><strong>NP Membership:</strong> Access to basic resources and support, no fee required.</p>
+                </section>
+                <section class="benefit">            
+                    <p><strong>Bronze Membership:</strong> Includes standard benefits plus access to basic training sessions.</p>
+                </section>
+                <section class="benefit"> 
+                    <p><strong>Silver Membership:</strong> All bronze benefits plus advertising spots and event discounts.</p>
+                </section>
+                <section class="benefit"> 
+                    <p><strong>Gold Membership:</strong> All silver benefits plus premium event access and spotlight positions.</p>
+                </section>
+        </div>
+        </div>
+ 
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> ✈ Steven Ssebuma ✈ WDD 230</p>
+        <p>Last Modified:<span id="lastModified"></span></p>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/steven-ssebuma-b58471268/" target="_blank">
+                <img class="linkedin" src="images/LI-In-Bug.png" alt="linkedin icon">
+            </a>
+            <a href="https://facebook.com/Steven/Ssebuma" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">                   
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+        </div> 
+    </footer>
+</body>
+</html>

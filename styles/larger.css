@@ -114,10 +114,10 @@ header {
   }
   .dark-mode {
 	background-color: hsl(0, 0%, 20%);
-	color: var(#114B56); 
-	h1{
-		color: #f0f0f0;
-	}
+	color: #114B56; 
+}
+.dark-mode h1 {
+	color: #f0f0f0;
 }
 .toggle {
 	position: fixed;
@@ -154,3 +154,7 @@ iframe{
     width: 100%;
     margin-bottom: 50px;
   }
+.hero-large{
+	width: 1500px;
+	height: 750px;
+}
