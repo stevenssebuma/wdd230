@@ -65,9 +65,16 @@
         <section class="main-content1">
         <div class="right-column">
           <div class="information"><h2>Information</h2></div>
-          <p>Kampala, Uganda</p>
-          <p>Weather: 76°F, Sunshine</p>
-          <p>Page Visits: <span class="visits"></span></p>
+      
+          <section class="card" id="weather">
+            <p>The current temperature in Kampala, Uganda is: <span id="current-temp"></span></p>
+            <figure>
+                <img id="weather-icon" src="default-icon.png" alt="Weather icon">
+                <figcaption></figcaption>
+            </figure>
+            <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+    
+        </section>
         </div>
       </section>
       <div class="iframe">
@@ -80,5 +87,6 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/localStorage.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
