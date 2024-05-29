@@ -58,10 +58,6 @@
           "week": "Week 4",
           "links": [
               {
-                  "url": "https://codepen.io/stevessebuma/pen/NWVPQzz",
-                  "title": "CodePen"
-              },
-              {
                   "url": "week04/images/combinators.png",
                   "title": "Combinators"
               },
@@ -78,10 +74,7 @@
       {
           "week": "Week 5",
           "links": [
-              {
-                  "url": "https://codepen.io/stevenssebuma/pen/QWRNpVp",
-                  "title": "CodePen"
-              },
+
               {
                   "url": "week05/new-ward-members.json",
                   "title": "JSON"
