@@ -41,10 +41,6 @@
                   "title": "Lazy Loading"
               },
               {
-                  "url": "week03/responsive-images.html",
-                  "title": "Responsive Images"
-              },
-              {
                   "url": "week03/bomstorage.html",
                   "title": "localStorage"
               }
