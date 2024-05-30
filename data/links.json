@@ -4,7 +4,7 @@
       "week": "Week 1",
       "links": [
           {
-              "url": "week01/holygrain.html",
+              "url": "week01/holygrail.html",
               "title": "Holy Grail"
           },
           {
@@ -23,10 +23,6 @@
               {
                   "url": "week02/design.html",
                   "title": "Design"
-              },
-              {
-                  "url": "https://codepen.io/stevenssebuma/pen/ZEZZwBV",
-                  "title": "CodePen"
               },
               {
                   "url": "week02/bom.html",
