@@ -1,124 +1,59 @@
 {
-    "members": [
-        {
-            "business": "Ashley Furniture Homestore",
-            "address": {
-                "street": "10349 Fairway Dr",
-                "city": "Roseville",
-                "state": "CA",
-                "zip": "95678"
-            },
-            "phone": "9169535757",
-            "email": "info@ashleyfurniture.com",
-            "website": "https://www.ashleyfurniture.com/",
-            "logo": "https://www.ashleyfurniture.com/on/demandware.static/-/Library-Sites-AshcommSharedLibrary/default/dw07126b7a/images/global/Ashley-Logo-Horizontal.svg",
-            "membership": "gold",
-            "category": "Shopping"
-        },
-        {
-            "business": "Bounty Hunters Grind & Grill",
-            "address": {
-                "street": "406 Vernon St",
-                "city": "Roseville",
-                "state": "CA",
-                "zip": "95678"
-            },
-            "phone": "9167720406",
-            "email": "order@bountyhuntersroseville.com",
-            "website": "https://www.bountyhunterscafe.com/",
-            "logo": "https://static.wixstatic.com/media/d996e1_6b71d5e8a01e405cb15a61bf405a5927~mv2.jpg/v1/crop/x_438,y_1111,w_3216,h_1833/fill/w_299,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d996e1_6b71d5e8a01e405cb15a61bf405a5927~mv2.jpg",
-            "membership": "silver",
-            "category": "Restaurant"
-        },
-        {
-            "business": "Byers Gymnastics Center",
-            "address": {
-                "street": "2009 Opportunity Dr",
-                "city": "Roseville",
-                "state": "CA",
-                "zip": "95678"
-            },
-            "phone": "9167812939",
-            "email": "info@byersroseville.com",
-            "website": "https://byersgym.com/",
-            "logo": "https://byersgym.com/wp-content/uploads/2019/11/cropped-Byers-Gymnastics-Center-Logo-1.png",
-            "membership": "silver",
-            "category": "Sports & Recreation"
-        },
-        {
-            "business": "Costa Vida Fresh Mexican Grill",
-            "address": {
-                "street": "1475 Eureka Rd STE 100",
-                "city": "Roseville",
-                "state": "CA",
-                "zip": "95661"
-            },
-            "phone": "9167739283",
-            "email": "togo@costavida.com",
-            "website": "https://www.costavida.com/",
-            "logo": "https://www.costavida.com/wp-content/uploads/2023/03/logo-costa-vida.svg",
-            "membership": "gold",
-            "category": "Restaurant"
-        },
-        {
-            "business": "Denio's Roseville Farmers Market",
-            "address": {
-                "street": "2013 Opportunity Dr STE 140",
-                "city": "Roseville",
-                "state": "CA",
-                "zip": "95678"
-            },
-            "phone": "9167822704",
-            "email": "info@deniosmarket.com",
-            "website": "https://deniosmarket.com/",
-            "logo": "http://deniosmarket.com/wp-content/uploads/denios_logo_resized.png",
-            "membership": "bronze",
-            "category": "Shopping"
-        },
-        {
-            "business": "Landscape & Tree Company",
-            "address": {
-                "street": "9340 Viking Place",
-                "city": "Roseville",
-                "state": "CA",
-                "zip": "95747"
-            },
-            "phone": "9162469987",
-            "email": "contact@landscapetreeco.com",
-            "website": "https://landscapetreeco.com/",
-            "logo": "https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_200,w_427,x_0,y_0/f_auto/q_auto:best/v1704755066/tenants/d63d369f-bc86-4c8e-b547-5545e12c7029/6cade229dea64a84b9c2837aa2b82f61/landscape.png",
-            "membership": "silver",
-            "category": "Home Improvement"
-        },
-        {
-            "business": "Secure and Alert Systems Corp",
-            "address": {
-                "street": "1328 Blue Oaks Blvd",
-                "city": "Roseville",
-                "state": "CA",
-                "zip": "95678"
-            },
-            "phone": "9166756330",
-            "email": "info@secureandalert.com",
-            "website": "https://www.secureandalert.com/",
-            "logo": "https://www.secureandalert.com/wp-content/uploads/2022/03/logo-v3.svg",
-            "membership": "gold",
-            "category": "Home Improvement"
-        },
-        {
-            "business": "Steve Wallen Swim School",
-            "address": {
-                "street": "10608 Industrial Ave STE 150",
-                "city": "Roseville",
-                "state": "CA",
-                "zip": "95691"
-            },
-            "phone": "9167947977",
-            "email": "roseville@wallenswim.com",
-            "website": "https://wallenswim.com/locations/roseville/",
-            "logo": "https://wallenswim.com/wp-content/uploads/2018/02/Wallen_Swim_School_Logo_01.png",
-            "membership": "bronze",
-            "category": "Sports & Recreation"
-        }
-    ]
-}
+    "companies": [
+      {
+        "name": "Regus",
+        "address": "42-49 S Meridian St Indianapolis, IN 46204",
+        "phone": "800-281-3242",
+        "image": "https://www.regus.com/icons/media/regus/regusLogo.svg",
+        "membership": "Bronze",
+        "websiteURL": "https://www.regus.com/en-us/united-states/indiana/indianapolis"
+      },
+      {
+        "name": "Indy Black",
+        "address": "202 E Market St Indianapolis IN 46204",
+        "phone": "833-439-4222",
+        "image": "https://b3069485.smushcdn.com/3069485/wp-content/uploads/2022/10/indybccupdated-copy.png?lossy=1&strip=1&webp=1",
+        "membership": "Gold",
+        "websiteURL": "https://indybcc.org"
+      },
+      {
+        "name": "U.S. Small Business Administration",
+        "address": "409 3rd St SW Washington DC 20416",
+        "phone": "800-862-8088",
+        "image": "https://www.sba.gov/themes/custom/sba/dist/img/logo-horizontal.svg",
+        "membership": "Silver",
+        "websiteURL": "https://www.sba.gov/district/indiana?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing&utm_content=indianapolis-in-district"
+      },
+      {
+        "name": "SBC",
+        "address": "2201 46tgh St Ste 133 Indianapolis, IN 46205",
+        "phone": "317-643-4735",
+        "image": "https://www.thesmallbusinesscollaborative.com/wp-content/uploads/2022/12/primary-logo-e1671119289559.jpg",
+        "membership": "Gold",
+        "websiteURL": "https://www.thesmallbusinesscollaborative.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb"
+      },
+      {
+        "name": "Murphy Business Sales",
+        "address": "8520 Allison Pointe Blvd Suite 220 Indianapolis Indiana 46250",
+        "phone": "317-682-4070",
+        "image": "https://murphybusiness.com/indianapolis/wp-content/themes/murphy-common/images/murphy-micro-logo.png",
+        "membership": "Bronze",
+        "websiteURL": "https://murphybusiness.com/indianapolis/"
+      },
+      {
+        "name": "Pros Consulting",
+        "address": "35 Whittington Drive Suite 300 Brownsburg IN 46112",
+        "phone": "877-242-7760",
+        "image": "https://prosconsulting.com/wp-content/uploads/2022/11/Pros-logo-INC_1-300x167-1.jpg",
+        "membership": "Gold",
+        "websiteURL": "https://prosconsulting.com"
+      },
+      {
+        "name": "Chorus Inc",
+        "address": "238 S Meriian St 4th Floor Indianapolis IN 46225",
+        "phone": "317-687-6055",
+        "image": "https://chorusinc.com/wp-content/uploads/2020/12/CHORUS-home-page-2020-top-left-logo-980x188.png",
+        "membership": "Silver",
+        "websiteURL": "https://chorusinc.com"
+      }]
+}  

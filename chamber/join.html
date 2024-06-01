@@ -31,8 +31,8 @@
             <ul>
                 <li><a href="index.html" onclick="changeMenu ('Home')">Home</a></li>
                 <li><a href="discover.html" onclick="changeMenu ('old')">Discover</a></li>
-                <li><a href="new" onclick="changeMenu ('New')">Directory</a></li>
-                <li><a href="new" onclick="changeMenu ('New')">Join</a></li>
+                <li><a href="directory.html" onclick="changeMenu ('New')">Directory</a></li>
+                <li class="current-menu-item"><a href="join.html" onclick="changeMenu ('New')">Join</a></li>
 
             </ul>
         </nav>
@@ -40,17 +40,17 @@
     <main>
         <h1>Member Information</h1>
         <div class="join-main">
-        <div class="form-container">
+        
         
         <form method="get" action="thankyou.html" class="join">
-            <fieldset>
-                <legend>Applicant Information</legend>
+            
+                
                 <fieldset>
-                    
+                    <legend>Applicant Information</legend>
                     <label>First Name* <input type="text" name="fname" id="fname" required></label>
                     <label>Last Name* <input type="text" name="lname" id="lname" required></label>
                     <label>Title or Position<input type="text" name="title" id="title" pattern="[a-zA-Z\- ]{7,}"></label>
-                    <label>Email <input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
+                    <label>Email <input type="email" name="email" id="email" placeholder="someone@byui.edu" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" required></label>
 
                     <label>Phone <input type="tel" name="phone" id="phone" placeholder="1235551234" required></label>
                     <label>Business/Organization's Name <input type="text" name="business" id="business" required></label>
@@ -62,7 +62,7 @@
                         Membership Level:
                         <select name="membershipLevel" id="membershipLevel">
                                 <option value="">Please Select &#9662;</option>
-                            <option value="np"> Membership - No Fee</option>
+                            <option value="np">NP Membership - No Fee</option>
                             <option value="bronze">Bronze Membership</option>
                             <option value="silver">Silver Membership</option>
                             <option value="gold">Gold Membership</option>
@@ -73,30 +73,31 @@
                 </fieldset>
                 <fieldset>
                     <input type="hidden" name="timestamp" id="timestamp">
-                    <input type="submit" value="Sign Up">
+                    <input type="submit" value="Sign Me Up">
                 </fieldset>
-            </fieldset>
+             
         </form>
         
-        </div>
-        <div class="benefits-container">
+        
+        <section class="benefits-container">
             <h2>Membership Benefits</h2>
-                <section class="benefit">            
-                    <p><strong>NP Membership:</strong> Access to basic offers.</p>
-                </section>
-                <section class="benefit">            
+                <div class="benefit">            
+                    <p><strong>NP Membership:</strong>  Access to basic offers. For free.</p>
+                </div>
+                <div class="benefit">            
                     <p><strong>Bronze Membership:</strong> Includes standard benefits plus access to basic training sessions.</p>
-                </section>
-                <section class="benefit"> 
+                </div>
+                <div class="benefit"> 
                     <p><strong>Silver Membership:</strong> All bronze benefits plus advertising spots and event discounts.</p>
-                </section>
-                <section class="benefit"> 
+                </div>
+                <div class="benefit"> 
                     <p><strong>Gold Membership:</strong> All silver benefits plus premium event access and spotlight positions.</p>
-                </section>
+                </div>
+        </section>
         </div>
-        </div>
- 
+        
     </main>
+    
     <footer>
         <p>&copy;<span id="currentyear"></span> ✈ Steven Ssebuma ✈ WDD 230</p>
         <p>Last Modified:<span id="lastModified"></span></p>

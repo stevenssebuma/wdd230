@@ -16,7 +16,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display&display=swap'" rel="stylesheet">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="icon" href="favicon.ico">
     <script src="scripts/chamber.js" defer></script>
 </head>
@@ -31,22 +30,29 @@
             <ul>
                 <li><a href="index.html" onclick="changeMenu ('Home')">Home</a></li>
                 <li><a href="discover.html" onclick="changeMenu ('old')">Discover</a></li>
-                <li><a href="directory.html" onclick="changeMenu ('New')">Directory</a></li>
+                <li class="current-menu-item"><a href="directory.html" onclick="changeMenu ('New')">Directory</a></li>
                 <li><a href="join.html" onclick="changeMenu ('New')">Join</a></li>
 
             </ul>
         </nav>
     </header>
-    <main id="directory">
-        <h2>Member Directory</h2>
-        <div class="menu">
-            <button id="grid">🔳 Grid</button>
-            <button id="list">📄 List</button>
+    <main class="directory">
+        <div class='menuDirectory' id="menuDirectory">
+            <button id="gridButton">🔳 Grid</button>
+            <button id="listButton">📄 List</button>
         </div>
-        <div id="members" class="grid">
-
+        <hr>
+        <h2>Directory Members</h2>
+        <div class="gridArticle" id="gridArticle">
+            
+            <div id="gridDirectory" class="gridDirectory">
+                
+               
+            </div>
         </div>
+   
     </main>
+    
     <footer>
         <script src="scripts/members.js"></script>
         <p>&copy;<span id="currentyear"></span> ✈ Steven Ssebuma ✈ WDD 230</p>
