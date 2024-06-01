@@ -1,12 +1,12 @@
 {
     "companies": [
       {
-        "name": "Regus",
-        "address": "42-49 S Meridian St Indianapolis, IN 46204",
-        "phone": "800-281-3242",
-        "image": "https://www.regus.com/icons/media/regus/regusLogo.svg",
+        "name": "Uganda Baati",
+        "address": "Plot 14/28, Kibira Road, Industrial Area/Box 3554, Kampala-Uganda Mulwana Rd, Kampala",
+        "phone": "+256707600588",
+        "image": "https://images.app.goo.gl/a2brdFdeE3zxzYne7",
         "membership": "Bronze",
-        "websiteURL": "https://www.regus.com/en-us/united-states/indiana/indianapolis"
+        "websiteURL": "https://ugandabaati.com"
       },
       {
         "name": "Indy Black",
