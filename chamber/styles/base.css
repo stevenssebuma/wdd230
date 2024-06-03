@@ -591,4 +591,23 @@ nav ul li {
   color: black;
 }
 }
+#banner {
+  background-color: var(--accent1-color);
+  padding: 15px;
+  text-align: center;
+  position: relative;
+  font-size: 1.2rem;
+  margin: 10px;
+  
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
 }

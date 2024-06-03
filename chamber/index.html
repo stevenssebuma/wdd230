@@ -38,6 +38,10 @@
         </nav>
     </header>
     <main>
+        <div id="banner" class="banner">
+            <marquee behavior="alternate" direction="right"><span>Attend the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</span></marquee>
+            <button id="closeBanner" class="close-btn">❌</button>
+        </div>
         <img class="icon2" src="images/chat-bubble.png" alt="Chat now" onclick="openForm()">
                 <div class="chat-popup" id="myForm">
                     <form action="/action_page.php" class="form-container">
@@ -53,7 +57,9 @@
         <div class="hero-image">
             <img class="hero" src="images/business-man-standing-back-during-sunrise.webp" alt="Businnes Man Standing back During Sunrise">
             <div class="header-text"><h1>KAMPALA Chamber of Commerce</h1>
-                <button class="callAction" type="button">Join Us</button>
+            <div class="call">
+                <button aria-label="join" class="callAction">Join Us</button>
+            </div>
             </div>
 
         </div>
@@ -107,6 +113,8 @@
  
     </main>
     <footer>
+        <script src="scripts/action.js" ></script>
+        <script src="scripts/banner.js"></script>
         <p>&copy;<span id="currentyear"></span> ✈ Steven Ssebuma ✈ WDD 230</p>
         <p>Last Modified:<span id="lastModified"></span></p>
         <div class="social">

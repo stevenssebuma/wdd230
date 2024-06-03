@@ -635,5 +635,20 @@ main h1 {
   .join-main {
       display:block;
   }
-  
+  #banner {
+    background-color: var(--accent1-color);
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
 }
