@@ -604,7 +604,7 @@ nav ul li {
   background: none;
   border: none;
   font-size: 1.2em;
-  position: absolute;
+  position: relative;
   right: 10px;
   top: 10px;
   cursor: pointer;
