@@ -635,7 +635,7 @@ main h1 {
   .join-main {
       display:block;
   }
-  marquee{
+  #banner{
     background-color: var(--accent1-color);
     padding: 15px;
     text-align: center;
