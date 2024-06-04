@@ -5,7 +5,8 @@ const forecastContainer = document.getElementById('forecast');
 
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=32.2903&lon=1.3733&appid=d11ce00ac2839e198c4afb709dff6499&units=imperial';
 
-const forecast = 'https://api.openweathermap.org/data/2.5/weather?lat=32.2903&lon=1.3733&appid=d11ce00ac2839e198c4afb709dff6499&units=imperial';
+const forecast = 'https://api.openweathermap.org/data/2.5/forecast?lat=32.2903&lon=1.3733&appid=d11ce00ac2839e198c4afb709dff6499&units=imperial';
+
 
 async function apiFetch() {
     try {
@@ -71,3 +72,6 @@ function displayForecast(forecastData) {
 
 apiFetch();
 apiForecast();
+
+
+
